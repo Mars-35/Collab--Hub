@@ -30,3 +30,7 @@ cd server_fastapi
 pip install -r requirements.txt
 cp .env.example .env
 uvicorn app.main:app --reload
+Bash:
+cd client_app
+npm install
+npm run dev
